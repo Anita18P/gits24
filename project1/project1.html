@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project1.css">
+</head>
+<body>
+    <form onsubmit="handleonsubmit(event)">
+        <label  for="expenseAmt">Choose Expense Amount</label>
+         <input type="number" name="expenseAmt" id="iexpenseAmt">
+         <label for="desc">Choose Description</label>
+         <input type="text" name="desc" id="idesc">
+          <label for="category">Choose category</label>
+          <select name="category"  id="icategory">
+            <option value="movie">Movie</option>
+            <option value="grocery">Grocery</option>
+            <option value="clothes">Clothes</option>
+            <option value="Hospital">Hospital</option>  
+            <option value="Cosmetics">Cosmetics</option>     
+            
+        </select>
+        <button type="submit"  id="subExpense">Add Expense</button>
+        
+        </form>
+        <ul id="ulexpenses"></ul>
+</body>
+<script src="project1.js"></script>
+</html>
