@@ -1,0 +1,32 @@
+form h1{
+    position: absolute;
+    color:red;
+    
+    left:40%;
+    right:auto;
+   
+}
+ul.no-bullets{
+    list-style-type: none;
+    left:5%;
+
+}
+.overallRating{
+    position:absolute;
+    top:10%;
+    left:5%;
+}
+.lis{
+    position:relative;
+    left: -40px;
+}
+.feedbackform{
+    position:absolute;
+    top:40%;
+    left:5%;
+}
+.feedbacks{
+    position:absolute;
+    top:60%;
+    left:5%;
+}

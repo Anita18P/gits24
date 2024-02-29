@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="feedbacks.css">
+</head>
+<body>
+    <form onsubmit="handlesubmit(event)">
+        <div>
+        <h1>Feedback System</h1>
+        <div class="overallRating">
+           <h3 id="headrating">overall Ratings</h3>
+            <ul class="no-bullets" >
+            <li  class="lis" id="one">*<Document class="html" id="first">0</Document></li>
+            <li class="lis"id="two">**<Document class="html" id="second">0</Document></li>
+            <li class="lis"id="three">***<Document class="html" id="third">0</Document></li>
+            <li class="lis"id="four">****<Document class="html" id="fourth">0</Document></li>
+            <li class="lis"id="five">*****<Document class="html" id="fifth">0</Document></li>
+           </ul>
+       </div>
+       <div class="feedbackform">
+        <h3 id="feedbackhead">Feedback Form</h3>
+        <label for="name1">Enter Your Name</label>
+        <input type="text" name="name1" id="iname">
+        <label for="rates">Choose Rating</label>
+        <select id="srate" name="selrate">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <button type="submit" id="sbutton">submit</button>
+         
+       </div>
+       <div class="feedbacks" id="ifeedbacks">
+        <h3 id="Allfeedbackhead">All Feedbacks</h3>
+
+       </div>
+    </div>
+    </form>
+    
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.7/axios.js"></script>
+<script src="feedbacks.js"></script>
+</html>
